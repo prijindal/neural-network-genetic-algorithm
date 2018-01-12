@@ -1,0 +1,367 @@
+01/12/2018 03:34:57 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 03:34:57 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 03:39:32 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 03:39:32 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 03:40:47 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 03:40:47 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 03:41:47 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 03:41:47 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 03:42:45 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 03:42:45 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 03:44:01 AM - INFO - Generation average: 53.50%
+01/12/2018 03:44:01 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 03:44:01 AM - INFO - ***Doing generation 2 of 10***
+01/12/2018 03:44:39 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 03:44:39 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 03:45:37 AM - INFO - Generation average: 59.00%
+01/12/2018 03:45:37 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 03:45:37 AM - INFO - ***Doing generation 2 of 10***
+01/12/2018 03:46:14 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 03:46:14 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 03:46:48 AM - INFO - Generation average: 0.00%
+01/12/2018 03:46:48 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 03:46:48 AM - INFO - ***Doing generation 2 of 10***
+01/12/2018 03:47:41 AM - INFO - Generation average: 0.00%
+01/12/2018 03:47:41 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 03:47:41 AM - INFO - ***Doing generation 3 of 10***
+01/12/2018 03:48:31 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 03:48:31 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 03:50:05 AM - INFO - Generation average: 55.00%
+01/12/2018 03:50:05 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 03:50:05 AM - INFO - ***Doing generation 2 of 10***
+01/12/2018 03:50:56 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 03:50:56 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 03:51:54 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 03:51:54 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 03:56:35 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 03:56:36 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 04:51:58 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 04:51:58 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 04:54:24 AM - INFO - Generation average: 83.60%
+01/12/2018 04:54:24 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 04:54:24 AM - INFO - ***Doing generation 2 of 10***
+01/12/2018 04:55:41 AM - INFO - Generation average: 87.85%
+01/12/2018 04:55:41 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 04:55:41 AM - INFO - ***Doing generation 3 of 10***
+01/12/2018 04:56:48 AM - INFO - Generation average: 89.00%
+01/12/2018 04:56:48 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 04:56:48 AM - INFO - ***Doing generation 4 of 10***
+01/12/2018 04:58:13 AM - INFO - Generation average: 89.35%
+01/12/2018 04:58:13 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 04:58:13 AM - INFO - ***Doing generation 5 of 10***
+01/12/2018 04:59:13 AM - INFO - Generation average: 89.00%
+01/12/2018 04:59:13 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 04:59:13 AM - INFO - ***Doing generation 6 of 10***
+01/12/2018 05:00:26 AM - INFO - Generation average: 89.70%
+01/12/2018 05:00:26 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 05:00:26 AM - INFO - ***Doing generation 7 of 10***
+01/12/2018 05:02:04 AM - INFO - Generation average: 89.10%
+01/12/2018 05:02:04 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 05:02:04 AM - INFO - ***Doing generation 8 of 10***
+01/12/2018 05:03:53 AM - INFO - Generation average: 89.70%
+01/12/2018 05:03:53 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 05:03:53 AM - INFO - ***Doing generation 9 of 10***
+01/12/2018 05:05:16 AM - INFO - Generation average: 89.40%
+01/12/2018 05:05:16 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 05:05:16 AM - INFO - ***Doing generation 10 of 10***
+01/12/2018 05:07:22 AM - INFO - Generation average: 87.60%
+01/12/2018 05:07:22 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 05:07:22 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 05:07:22 AM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'adam'}
+01/12/2018 05:07:22 AM - INFO - Network accuracy: 94.00%
+01/12/2018 05:07:22 AM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adagrad'}
+01/12/2018 05:07:22 AM - INFO - Network accuracy: 92.00%
+01/12/2018 05:07:22 AM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'nadam'}
+01/12/2018 05:07:22 AM - INFO - Network accuracy: 92.00%
+01/12/2018 05:07:22 AM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'nadam'}
+01/12/2018 05:07:22 AM - INFO - Network accuracy: 92.00%
+01/12/2018 05:07:22 AM - INFO - {'nb_neurons': 512, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'nadam'}
+01/12/2018 05:07:22 AM - INFO - Network accuracy: 91.00%
+01/12/2018 05:14:12 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 05:14:12 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 05:26:16 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 05:26:16 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 05:26:50 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 05:26:50 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 05:42:35 AM - INFO - Generation average: 90.68%
+01/12/2018 05:42:35 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 05:42:35 AM - INFO - ***Doing generation 2 of 10***
+01/12/2018 05:46:38 AM - INFO - Generation average: 92.57%
+01/12/2018 05:46:38 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 05:46:38 AM - INFO - ***Doing generation 3 of 10***
+01/12/2018 05:49:36 AM - INFO - Generation average: 93.29%
+01/12/2018 05:49:36 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 05:49:36 AM - INFO - ***Doing generation 4 of 10***
+01/12/2018 05:52:57 AM - INFO - Generation average: 93.21%
+01/12/2018 05:52:57 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 05:52:57 AM - INFO - ***Doing generation 5 of 10***
+01/12/2018 05:57:33 AM - INFO - Generation average: 93.46%
+01/12/2018 05:57:33 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 05:57:33 AM - INFO - ***Doing generation 6 of 10***
+01/12/2018 06:01:08 AM - INFO - Generation average: 93.95%
+01/12/2018 06:01:08 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 06:01:08 AM - INFO - ***Doing generation 7 of 10***
+01/12/2018 06:04:52 AM - INFO - Generation average: 93.68%
+01/12/2018 06:04:52 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 06:04:52 AM - INFO - ***Doing generation 8 of 10***
+01/12/2018 06:08:16 AM - INFO - Generation average: 94.13%
+01/12/2018 06:08:16 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 06:08:16 AM - INFO - ***Doing generation 9 of 10***
+01/12/2018 06:11:25 AM - INFO - Generation average: 94.51%
+01/12/2018 06:11:25 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 06:11:25 AM - INFO - ***Doing generation 10 of 10***
+01/12/2018 06:14:50 AM - INFO - Generation average: 94.48%
+01/12/2018 06:14:50 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 06:14:50 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 06:14:50 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'nadam'}
+01/12/2018 06:14:50 AM - INFO - Network accuracy: 95.40%
+01/12/2018 06:14:50 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'nadam'}
+01/12/2018 06:14:50 AM - INFO - Network accuracy: 95.10%
+01/12/2018 06:14:50 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'nadam'}
+01/12/2018 06:14:50 AM - INFO - Network accuracy: 95.00%
+01/12/2018 06:14:50 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'nadam'}
+01/12/2018 06:14:50 AM - INFO - Network accuracy: 94.90%
+01/12/2018 06:14:50 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'nadam'}
+01/12/2018 06:14:50 AM - INFO - Network accuracy: 94.80%
+01/12/2018 06:42:24 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 06:42:24 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 06:44:48 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 06:44:48 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 06:45:17 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 06:45:17 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 06:46:37 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 06:46:37 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 06:47:19 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 06:47:19 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 06:48:18 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 06:48:18 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 06:48:38 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 06:48:38 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 06:49:46 AM - INFO - ***Evolving 10 generations with population 20***
+01/12/2018 06:49:46 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 06:55:25 AM - INFO - ***Evolving 20 generations with population 20***
+01/12/2018 06:55:25 AM - INFO - ***Doing generation 1 of 20***
+01/12/2018 06:57:34 AM - INFO - ***Evolving 20 generations with population 20***
+01/12/2018 06:57:34 AM - INFO - ***Doing generation 1 of 20***
+01/12/2018 06:59:02 AM - INFO - ***Evolving 20 generations with population 20***
+01/12/2018 06:59:02 AM - INFO - ***Doing generation 1 of 20***
+01/12/2018 07:02:07 AM - INFO - ***Evolving 20 generations with population 20***
+01/12/2018 07:02:07 AM - INFO - ***Doing generation 1 of 20***
+01/12/2018 07:08:25 AM - INFO - ***Evolving 20 generations with population 80***
+01/12/2018 07:08:25 AM - INFO - ***Doing generation 1 of 20***
+01/12/2018 07:28:46 AM - INFO - ***Evolving 20 generations with population 20***
+01/12/2018 07:28:46 AM - INFO - ***Doing generation 1 of 20***
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'nadam', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0.01, 'initializer': 'ones'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 70.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 16, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'sgd', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'truncated_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 85.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 8, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0.02, 'initializer': 'he_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 62.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'adamax', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0.02, 'initializer': 'lecun_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 82.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 32, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'sgd', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0.01, 'initializer': 'lecun_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 75.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 32, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 8, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'adamax', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'random_uniform'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 79.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'relu', 'optimizer': 'adadelta', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0.01, 'initializer': 'zeros'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 14.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 8, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'adamax', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0.01, 'initializer': 'random_uniform'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 14.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0.02, 'initializer': 'ones'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 60.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 16, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'adamax', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'he_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 79.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'zeros'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 87.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 8, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'nadam', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0.01, 'initializer': 'lecun_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 82.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'sgd', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0.01, 'initializer': 'truncated_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 76.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 8, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0.02, 'initializer': 'zeros'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 14.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 64, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'adadelta', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 86.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 86.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_uniform'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:31:17 AM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0.02, 'initializer': 'he_normal'}
+01/12/2018 07:31:17 AM - INFO - Network accuracy: 86.00%
+01/12/2018 07:31:17 AM - INFO - Generation average: 70.15%
+01/12/2018 07:31:17 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:31:17 AM - INFO - ***Doing generation 2 of 20***
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_uniform'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 32, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'zeros'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 87.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 64, 'nb_layers': 2, 'activation': 'tanh', 'optimizer': 'adadelta', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 86.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 86.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0.02, 'initializer': 'he_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 86.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 16, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'sgd', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'truncated_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 85.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'adamax', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0.02, 'initializer': 'lecun_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 82.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 87.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 87.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 8, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 83.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 87.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 16, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'sgd', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'truncated_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 84.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 16, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'sgd', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 84.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 86.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 91.00%
+01/12/2018 07:33:46 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:33:46 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:33:46 AM - INFO - Generation average: 86.60%
+01/12/2018 07:33:46 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:33:46 AM - INFO - ***Doing generation 3 of 20***
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 91.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_uniform'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 32, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 128, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'zeros'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 87.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_uniform'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 91.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 84.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 32, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 86.00%
+01/12/2018 07:34:49 AM - INFO - {'nb_neurons': 32, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1_l2', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:34:49 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:34:49 AM - INFO - Generation average: 88.35%
+01/12/2018 07:34:49 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:34:49 AM - INFO - ***Doing generation 4 of 20***
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 91.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'glorot_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 91.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_uniform'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_uniform'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_uniform'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'random_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 87.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_uniform'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 88.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_uniform'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 89.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'adam', 'loss': 'categorical_crossentropy', 'regularizer': 'l1', 'regularizer_alpha': 0.01, 'initializer': 'lecun_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 80.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 128, 'nb_layers': 1, 'activation': 'elu', 'optimizer': 'rmsprop', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 86.00%
+01/12/2018 07:35:54 AM - INFO - {'nb_neurons': 256, 'nb_layers': 1, 'activation': 'sigmoid', 'optimizer': 'adagrad', 'loss': 'categorical_crossentropy', 'regularizer': 'l2', 'regularizer_alpha': 0, 'initializer': 'lecun_normal'}
+01/12/2018 07:35:54 AM - INFO - Network accuracy: 90.00%
+01/12/2018 07:35:54 AM - INFO - Generation average: 88.30%
+01/12/2018 07:35:54 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:35:54 AM - INFO - ***Doing generation 5 of 20***
+01/12/2018 07:36:21 AM - INFO - ***Evolving 10 generations with population 40***
+01/12/2018 07:36:21 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 07:37:10 AM - INFO - ***Evolving 10 generations with population 40***
+01/12/2018 07:37:10 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 07:38:08 AM - INFO - ***Evolving 10 generations with population 40***
+01/12/2018 07:38:08 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 07:42:45 AM - INFO - Generation average: 64.13%
+01/12/2018 07:42:45 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:43:22 AM - INFO - ***Evolving 10 generations with population 4***
+01/12/2018 07:43:22 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 07:44:09 AM - INFO - Generation average: 64.00%
+01/12/2018 07:44:09 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:46:14 AM - INFO - ***Evolving 10 generations with population 4***
+01/12/2018 07:46:14 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 07:49:36 AM - INFO - ***Evolving 10 generations with population 4***
+01/12/2018 07:49:36 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 07:50:03 AM - INFO - ***Evolving 10 generations with population 4***
+01/12/2018 07:50:03 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 07:50:19 AM - INFO - Generation average: 58.75%
+01/12/2018 07:50:19 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:51:12 AM - INFO - ***Evolving 10 generations with population 4***
+01/12/2018 07:51:12 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 07:51:21 AM - INFO - Generation average: 42.50%
+01/12/2018 07:51:21 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:51:21 AM - INFO - ***Doing generation 2 of 10***
+01/12/2018 07:51:25 AM - INFO - Generation average: 60.00%
+01/12/2018 07:51:25 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:51:40 AM - INFO - ***Evolving 10 generations with population 4***
+01/12/2018 07:51:40 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 07:52:14 AM - INFO - Generation average: 30.00%
+01/12/2018 07:52:14 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:53:04 AM - INFO - ***Evolving 10 generations with population 4***
+01/12/2018 07:53:04 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 07:53:39 AM - INFO - Generation average: 50.00%
+01/12/2018 07:53:39 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:53:39 AM - INFO - ***Doing generation 2 of 10***
+01/12/2018 07:54:11 AM - INFO - Generation average: 60.00%
+01/12/2018 07:54:11 AM - INFO - --------------------------------------------------------------------------------
+01/12/2018 07:54:39 AM - INFO - ***Evolving 10 generations with population 40***
+01/12/2018 07:54:39 AM - INFO - ***Doing generation 1 of 10***
+01/12/2018 07:59:21 AM - INFO - ***Evolving 10 generations with population 40***
+01/12/2018 07:59:21 AM - INFO - ***Doing generation 1 of 10***

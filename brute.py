@@ -59,20 +59,22 @@ def generate_network_list(nn_param_choices):
         for nbl in nn_param_choices['nb_layers']:
             for a in nn_param_choices['activation']:
                 for o in nn_param_choices['optimizer']:
+                    for l in nn_param_choices['loss']:
 
-                    # Set the parameters.
-                    network = {
-                        'nb_neurons': nbn,
-                        'nb_layers': nbl,
-                        'activation': a,
-                        'optimizer': o,
-                    }
+                        # Set the parameters.
+                        network = {
+                            'nb_neurons': nbn,
+                            'nb_layers': nbl,
+                            'activation': a,
+                            'optimizer': o,
+                            'loss': l
+                        }
 
-                    # Instantiate a network object with set parameters.
-                    network_obj = Network()
-                    network_obj.create_set(network)
+                        # Instantiate a network object with set parameters.
+                        network_obj = Network()
+                        network_obj.create_set(network)
 
-                    networks.append(network_obj)
+                        networks.append(network_obj)
 
     return networks
 

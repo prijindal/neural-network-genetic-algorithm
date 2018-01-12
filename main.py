@@ -11,7 +11,7 @@ logging.basicConfig(
     filename='log.txt'
 )
 
-def train_networks(networks, dataset):
+def train_networks(networks, dataset, percentage_dataset):
     """Train each network.
 
     Args:
@@ -20,7 +20,7 @@ def train_networks(networks, dataset):
     """
     pbar = tqdm(total=len(networks))
     for network in networks:
-        network.train(dataset)
+        network.train(dataset, percentage_dataset)
         pbar.update(1)
     pbar.close()
 
@@ -40,7 +40,7 @@ def get_average_accuracy(networks):
 
     return total_accuracy / len(networks)
 
-def generate(generations, population, nn_param_choices, dataset):
+def generate(generations, population, nn_param_choices, dataset, percentage_dataset):
     """Generate a network with the genetic algorithm.
 
     Args:
@@ -59,7 +59,7 @@ def generate(generations, population, nn_param_choices, dataset):
                      (i + 1, generations))
 
         # Train and get accuracy for networks.
-        train_networks(networks, dataset)
+        train_networks(networks, dataset, percentage_dataset)
 
         # Get the average accuracy for this generation.
         average_accuracy = get_average_accuracy(networks)
@@ -75,7 +75,6 @@ def generate(generations, population, nn_param_choices, dataset):
 
     # Sort our final population.
     networks = sorted(networks, key=lambda x: x.accuracy, reverse=True)
-
     # Print out the top 5 networks.
     print_networks(networks[:5])
 
@@ -93,21 +92,51 @@ def print_networks(networks):
 def main():
     """Evolve a network."""
     generations = 10  # Number of times to evole the population.
-    population = 20  # Number of networks in each generation.
-    dataset = 'cifar10'
+    population = 40  # Number of networks in each generation.
+    dataset = 'mnist'
+    percentage_dataset = 1
 
     nn_param_choices = {
-        'nb_neurons': [64, 128, 256, 512, 768, 1024],
-        'nb_layers': [1, 2, 3, 4],
+        'nb_neurons': [64, 128, 256, 512, 1024, 2048],
+        'nb_layers': [1, 2],
         'activation': ['relu', 'elu', 'tanh', 'sigmoid'],
         'optimizer': ['rmsprop', 'adam', 'sgd', 'adagrad',
                       'adadelta', 'adamax', 'nadam'],
+        'loss': [
+                    # 'mean_squared_error', 'mean_squared_logarithmic_error',
+                    # 'mean_absolute_error', 'mean_absolute_percentage_error', 
+                    # 'squared_hinge', 'hinge', 'categorical_hinge',
+                    # 'logcosh',
+                    'categorical_crossentropy',
+                    # 'sparse_categorical_crossentropy', 'binary_crossentropy',
+                    # 'kullback_leibler_divergence', 'poisson', 'cosine_proximity'
+                ],
+        'regularizer': ['l1', 'l2', 'l1_l2'],
+        'regularizer_alpha': [0, 0.01, 0.02],
+        'initializer': ['zeros', 'ones', 'random_normal', 'random_uniform', 'truncated_normal', 
+                        #'variance_scaling', 
+                        #'orthogonal', 'identity', 
+                        'glorot_normal', 'glorot_uniform',
+                        'lecun_uniform', 'lecun_normal',
+                        'he_normal', 'he_uniform',]
     }
+
+    # We can add more parameters here
+    # 1. Initializers
+    # 2. Regularizers
+    # 3. Constraints
+    # 4. Loss/Objective Function
+    # Also we can add parameters for the optimizer function:
+    # Learning rate,
+    # clipnorm,
+    # clipvalue,
+    # momentum
+    # decay etc 
 
     logging.info("***Evolving %d generations with population %d***" %
                  (generations, population))
 
-    generate(generations, population, nn_param_choices, dataset)
+    generate(generations, population, nn_param_choices, dataset, percentage_dataset)
 
 if __name__ == '__main__':
     main()
