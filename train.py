@@ -5,57 +5,33 @@ Based on:
     https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py
 
 """
-from keras.datasets import mnist, cifar10
+import math
+import random
+
+import numpy as np
+from tflearn.data_utils import load_csv
+from keras import regularizers, datasets
+from keras.preprocessing import sequence
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.utils.np_utils import to_categorical
 from keras.callbacks import EarlyStopping
-from keras import regularizers
 
 # Helper: Early stopping.
 early_stopper = EarlyStopping(patience=5)
 
-def get_cifar10(percentage=1):
-    """Retrieve the CIFAR dataset and process the data."""
-    # Set defaults.
-    nb_classes = 10
-    batch_size = 64
-    input_shape = (3072,)
+def get_keras_dataset(name='cifar10', nb_classes=10,batch_size=64,input_shape=(3072,), percentage=1):
+    """Retrieve any dataset from keras.datasets """
+    if name == 'cifar10':
+        dataset_function = datasets.cifar10
+    elif name == 'mnist':
+        dataset_function = datasets.mnist
+    elif name == 'imdb':
+        dataset_function = datasets.imdb
+    else:
+        dataset_function = datasets.cifar10
 
-    # Get the data.
-    (x_train, y_train), (x_test, y_test) = cifar10.load_data()
-
-    TRAIN_SIZE = len(x_train) * percentage
-    TEST_SIZE = len(x_test) * percentage
-
-    x_train = x_train[:TRAIN_SIZE]
-    y_train = y_train[:TRAIN_SIZE]
-    x_test = x_test[:TEST_SIZE]
-    y_test = y_test[:TEST_SIZE]
-
-    x_train = x_train.reshape(TRAIN_SIZE, 3072)
-    x_test = x_test.reshape(TEST_SIZE, 3072)
-    x_train = x_train.astype('float32')
-    x_test = x_test.astype('float32')
-    x_train /= 255
-    x_test /= 255
-
-    # convert class vectors to binary class matrices
-    y_train = to_categorical(y_train, nb_classes)
-    y_test = to_categorical(y_test, nb_classes)
-
-    return (nb_classes, batch_size, input_shape, x_train, x_test, y_train, y_test)
-
-def get_mnist(percentage=1):
-    """Retrieve the MNIST dataset and process the data."""
-    # Set defaults.
-    nb_classes = 10
-    batch_size = 128
-    input_shape = (784,)
-
-    # Get the data.
-    (x_train, y_train), (x_test, y_test) = mnist.load_data()
-
+    (x_train, y_train), (x_test, y_test) = dataset_function.load_data()
 
     TRAIN_SIZE = int(len(x_train) * percentage)
     TEST_SIZE = int(len(x_test) * percentage)
@@ -65,18 +41,86 @@ def get_mnist(percentage=1):
     x_test = x_test[:TEST_SIZE]
     y_test = y_test[:TEST_SIZE]
 
-    x_train = x_train.reshape(TRAIN_SIZE, 784)
-    x_test = x_test.reshape(TEST_SIZE, 784)
-    x_train = x_train.astype('float32')
-    x_test = x_test.astype('float32')
-    x_train /= 255
-    x_test /= 255
+    if name == 'mnist':
+        x_train = x_train.reshape(TRAIN_SIZE, input_shape[0])
+        x_test = x_test.reshape(TEST_SIZE, input_shape[0])
+        x_train = x_train.astype('float32')
+        x_test = x_test.astype('float32')
+        x_train /= 255
+        x_test /= 255
+    elif name == 'imdb':
+        # x_train.dropna()
+        maxlen = 80
+        x_train = sequence.pad_sequences(x_train, maxlen=maxlen)
+        x_test = sequence.pad_sequences(x_test, maxlen=maxlen)
 
     # convert class vectors to binary class matrices
     y_train = to_categorical(y_train, nb_classes)
     y_test = to_categorical(y_test, nb_classes)
 
-    return (nb_classes, batch_size, input_shape, x_train, x_test, y_train, y_test)
+    return (nb_classes, batch_size, input_shape, x_train, x_test, y_train, y_test) 
+
+def get_cifar10(percentage=1):
+    """Retrieve the CIFAR dataset and process the data."""
+    # Set defaults.
+    name = 'cifar10'
+    nb_classes = 10
+    batch_size = 64
+    input_shape = (3072,)
+    
+    return get_keras_dataset(name, nb_classes, batch_size, input_shape, percentage)
+
+def get_mnist(percentage=1):
+    """Retrieve the MNIST dataset and process the data."""
+    # Set defaults.
+    name = 'mnist'
+    nb_classes = 10
+    batch_size = 128
+    input_shape = (784,)
+    
+    return get_keras_dataset(name, nb_classes, batch_size, input_shape, percentage)
+
+def get_imdb(percentage=1):
+    name = 'imdb'
+    nb_classes = 2
+    batch_size = 64
+    input_shape = (80,)
+    
+    return get_keras_dataset(name, nb_classes, batch_size, input_shape, percentage)
+
+def preprocess_titanic(passengers, columns_to_delete=[1,6]):
+    # Sort by descending id and delete columns
+    for column_to_delete in sorted(columns_to_delete, reverse=True):
+        [passenger.pop(column_to_delete) for passenger in passengers]
+    for i in range(len(passengers)):
+        # Converting 'sex' field to float (id is 1 after removing labels column)
+        passengers[i][1] = 1. if passengers[i][1] == 'female' else 0.
+    return np.array(passengers, dtype=np.float32)
+
+def get_titanic(percentage=1):
+    name = 'titanic'
+    nb_classes = 2
+    batch_size = 4
+    input_shape = (6,)
+
+    data, labels = load_csv('titanic_dataset.csv', target_column=0,
+                        categorical_labels=True, n_classes=2)
+    data = preprocess_titanic(data)
+    x_train = data
+    y_train = np.array(labels, np.int32)
+    my_random = random.sample(range(len(data)), int(len(data)/10))
+    x_test = data[my_random]
+    y_test = labels[my_random]
+
+    TRAIN_SIZE = int(len(x_train) * percentage)
+    TEST_SIZE = int(len(x_test) * percentage)
+
+    x_train = x_train[:TRAIN_SIZE]
+    y_train = y_train[:TRAIN_SIZE]
+    x_test = x_test[:TEST_SIZE]
+    y_test = y_test[:TEST_SIZE]
+
+    return (nb_classes, batch_size, input_shape, x_train, x_test, y_train, y_test) 
 
 def compile_model(network, nb_classes, input_shape):
     """Compile a sequential model.
@@ -118,7 +162,7 @@ def compile_model(network, nb_classes, input_shape):
         if i == 0:
             model.add(Dense(nb_neurons, activation=activation, kernel_initializer=initializer ,kernel_regularizer=kernel_regularizer, input_shape=input_shape))
         else:
-            model.add(Dense(nb_neurons, activation=activation))
+            model.add(Dense(nb_neurons, activation=activation, kernel_initializer=initializer ,kernel_regularizer=kernel_regularizer))
 
         model.add(Dropout(0.2))  # hard-coded dropout
 
@@ -144,6 +188,13 @@ def train_and_score(network, dataset, percentage_dataset):
     elif dataset == 'mnist':
         nb_classes, batch_size, input_shape, x_train, \
             x_test, y_train, y_test = get_mnist(percentage_dataset)
+    elif dataset == 'imdb':
+        nb_classes, batch_size, input_shape, x_train, \
+            x_test, y_train, y_test = get_imdb(percentage_dataset)
+    elif dataset == 'titanic':
+        nb_classes, batch_size, input_shape, x_train, \
+            x_test, y_train, y_test = get_titanic(percentage_dataset)
+        
 
     model = compile_model(network, nb_classes, input_shape)
 

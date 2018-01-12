@@ -8,7 +8,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     datefmt='%m/%d/%Y %I:%M:%S %p',
     level=logging.DEBUG,
-    filename='log.txt'
+    filename='titanic.log.txt'
 )
 
 def train_networks(networks, dataset, percentage_dataset):
@@ -92,13 +92,13 @@ def print_networks(networks):
 def main():
     """Evolve a network."""
     generations = 10  # Number of times to evole the population.
-    population = 40  # Number of networks in each generation.
-    dataset = 'mnist'
+    population = 20  # Number of networks in each generation.
+    dataset = 'titanic'
     percentage_dataset = 1
 
     nn_param_choices = {
-        'nb_neurons': [64, 128, 256, 512, 1024, 2048],
-        'nb_layers': [1, 2],
+        'nb_neurons': [2, 4, 8, 16, 32, 64],
+        'nb_layers': [1, 2, 3, 4],
         'activation': ['relu', 'elu', 'tanh', 'sigmoid'],
         'optimizer': ['rmsprop', 'adam', 'sgd', 'adagrad',
                       'adadelta', 'adamax', 'nadam'],
