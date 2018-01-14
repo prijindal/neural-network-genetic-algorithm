@@ -3,14 +3,6 @@ import logging
 from optimizer import Optimizer
 from tqdm import tqdm
 
-# Setup logging.
-logging.basicConfig(
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%m/%d/%Y %I:%M:%S %p',
-    level=logging.DEBUG,
-    filename='titanic.log.txt'
-)
-
 def train_networks(networks, dataset, percentage_dataset):
     """Train each network.
 
@@ -21,6 +13,7 @@ def train_networks(networks, dataset, percentage_dataset):
     pbar = tqdm(total=len(networks))
     for network in networks:
         network.train(dataset, percentage_dataset)
+        network.print_network()
         pbar.update(1)
     pbar.close()
 
@@ -72,7 +65,7 @@ def generate(generations, population, nn_param_choices, dataset, percentage_data
         if i != generations - 1:
             # Do the evolution.
             networks = optimizer.evolve(networks)
-
+            
     # Sort our final population.
     networks = sorted(networks, key=lambda x: x.accuracy, reverse=True)
     # Print out the top 5 networks.
@@ -93,21 +86,29 @@ def main():
     """Evolve a network."""
     generations = 10  # Number of times to evole the population.
     population = 20  # Number of networks in each generation.
-    dataset = 'titanic'
-    percentage_dataset = 1
+    dataset = 'multiply'
+    percentage_dataset = 0.01
+
+    # Setup logging.
+    logging.basicConfig(
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        datefmt='%m/%d/%Y %I:%M:%S %p',
+        level=logging.DEBUG,
+        filename='{0}.log.txt'.format(dataset)
+    )
 
     nn_param_choices = {
-        'nb_neurons': [2, 4, 8, 16, 32, 64],
-        'nb_layers': [1, 2, 3, 4],
+        'nb_neurons': [2, 4, 8],
+        'nb_layers': [1, 2],
         'activation': ['relu', 'elu', 'tanh', 'sigmoid'],
         'optimizer': ['rmsprop', 'adam', 'sgd', 'adagrad',
                       'adadelta', 'adamax', 'nadam'],
         'loss': [
-                    # 'mean_squared_error', 'mean_squared_logarithmic_error',
+                    'mean_squared_error', 'mean_squared_logarithmic_error',
                     # 'mean_absolute_error', 'mean_absolute_percentage_error', 
                     # 'squared_hinge', 'hinge', 'categorical_hinge',
                     # 'logcosh',
-                    'categorical_crossentropy',
+                    # 'categorical_crossentropy',
                     # 'sparse_categorical_crossentropy', 'binary_crossentropy',
                     # 'kullback_leibler_divergence', 'poisson', 'cosine_proximity'
                 ],

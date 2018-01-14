@@ -122,6 +122,24 @@ def get_titanic(percentage=1):
 
     return (nb_classes, batch_size, input_shape, x_train, x_test, y_train, y_test) 
 
+
+def get_multiply(percentage=1):
+    name = 'multiply'
+    batch_size = 128
+    nb_classes = 1
+    input_shape = (2, )
+    x, y = load_csv('multiply.csv', target_column=2)
+    N = 10000*percentage
+    TRAIN_SIZE = int(N*0.8)
+    TEST_SIZE = int(N*0.2)
+
+    x_train = x[:TRAIN_SIZE]
+    x_test = x[TRAIN_SIZE:]
+    y_train = y[:TRAIN_SIZE]
+    y_test = y[TRAIN_SIZE:]
+
+    return (nb_classes, batch_size, input_shape, x_train, x_test, y_train, y_test)
+
 def compile_model(network, nb_classes, input_shape):
     """Compile a sequential model.
 
@@ -194,6 +212,10 @@ def train_and_score(network, dataset, percentage_dataset):
     elif dataset == 'titanic':
         nb_classes, batch_size, input_shape, x_train, \
             x_test, y_train, y_test = get_titanic(percentage_dataset)
+    elif dataset == 'multiply':
+        nb_classes, batch_size, input_shape, x_train, \
+            x_test, y_train, y_test = get_multiply(percentage_dataset)
+        
         
 
     model = compile_model(network, nb_classes, input_shape)
